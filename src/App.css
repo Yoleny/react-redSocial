@@ -1,0 +1,92 @@
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, input, button {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  background-color: #f5f8fa;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #14171a;
+}
+
+header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+header h1 {
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+/* Tweet */
+.tweet {
+  display: flex;
+  padding: 15px;
+  border-bottom: 1px solid #e1e8ed;
+}
+
+.tweet img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.tweet .content {
+  margin-left: 10px;
+}
+
+.tweet .content h2 {
+  color: #14171a;
+  margin-bottom: 5px;
+}
+
+.tweet .content p {
+  color: #555;
+}
+
+/* Form */
+form {
+  display: flex;
+  padding: 15px;
+}
+
+form input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #e1e8ed;
+  border-radius: 5px;
+}
+
+form button {
+  margin-left: 10px;
+  padding: 10px 20px;
+background-color: #14171a;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: #14171a;
+  color: #ffffff;
+}
+
+footer a {
+  margin: 0 5px;
+  color: #ffffff;
+}
